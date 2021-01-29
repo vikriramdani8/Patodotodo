@@ -6,7 +6,7 @@ import androidx.databinding.DataBindingUtil
 import com.example.patodotodo.databinding.ActivityDetailBinding
 import kotlinx.android.synthetic.main.activity_detail.*
 
-class DetailActivities : AppCompatActivity() {
+class activity_detail : AppCompatActivity() {
 
     lateinit var binding : ActivityDetailBinding
 

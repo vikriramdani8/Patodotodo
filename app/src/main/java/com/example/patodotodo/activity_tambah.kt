@@ -3,7 +3,7 @@ package com.example.patodotodo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Tambah : AppCompatActivity() {
+class activity_tambah : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

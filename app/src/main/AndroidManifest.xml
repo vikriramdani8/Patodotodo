@@ -9,11 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".DetailActivities"></activity>
+        <activity android:name=".activity_tambahcategory"></activity>
+        <activity android:name=".activity_profile" />
+        <activity android:name=".activity_mylist" />
+        <activity android:name=".activity_registration" />
+        <activity android:name=".activity_detail" />
         <activity
-            android:name=".Tambah"
+            android:name=".activity_tambah"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".Menu" />
+        <activity android:name=".activity_menu" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">

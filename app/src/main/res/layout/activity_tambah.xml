@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tambah"
+    tools:context=".activity_tambah"
     android:background="#faf3f0"
     android:paddingTop="50dp">
 
@@ -95,44 +95,5 @@
                 app:layout_constraintEnd_toEndOf="parent" />
 
     </LinearLayout>
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView6"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:fontFamily="@font/poppinsregular"-->
-<!--        android:text="Add Activities"-->
-<!--        android:textColor="#181818"-->
-<!--        android:textSize="30dp"-->
-<!--        android:textStyle="bold"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
-<!--    <EditText-->
-<!--        android:layout_marginTop="30dp"-->
-<!--        android:padding="3dp"-->
-<!--        android:id="@+id/nameAct"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:fontFamily="@font/poppinsregular"-->
-<!--        android:hint="Add a Task "-->
-<!--        android:textColor="#212121"-->
-<!--        android:textColorHint="#616161"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/textView6"-->
-<!--        android:background="@drawable/edittext_bottom_line"/>-->
-
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:background="#faf3f0"
-        app:itemIconSize="20dp"
-        app:itemIconTint="@color/cardview_dark_background"
-        app:itemTextColor="@color/cardview_dark_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:menu="@menu/navigation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
